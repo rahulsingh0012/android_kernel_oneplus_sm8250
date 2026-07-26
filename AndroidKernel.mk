@@ -63,7 +63,7 @@ ifeq ($(KERNEL_LLVM_SUPPORT), true)
   else
      #   KERNEL_LLVM_BIN := $(shell pwd)/$(CLANG) #Using aosp-llvm compiler
      #   $(warning "Using aosp-llvm" $(KERNEL_LLVM_BIN))
-	     KERNEL_LLVM_BIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r563880c/bin/clang
+	 KERNEL_LLVM_BIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r563880c/bin/clang
   endif
 endif
 
